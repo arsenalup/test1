@@ -2,6 +2,7 @@ import re, random
 from lib.core import Download
 
 
+
 def sqlcheck(url):
     if(not url.find("?")):
         return False
